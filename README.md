@@ -8,9 +8,9 @@ This Python3 script allows you to block via IP tables bad user's who attempt to 
 2. Initalize a Python Virtual Environment, `python3 -m venv env`
 3. Activate Python venv `. env/bin/activate`
 4. Installing what Python needs, `pip install -r require.txt`
-5. Run `failUser.py` to create `failUser.cfg` (Then stop it)
+5. Run `failUser.py` to create `failUser.cfg` (Then stop it, CTRL + C)
 6. Edit `failUser.cfg` with target Enigma 1/2 directory path, block_time in hours to block an IP.
-7. Run it in the background `nohup ./failUser.py &` (Now you can close the connection yet still have failUser running)
+7. Run it in the background `nohup ./failUser.py &` (Now you can close the connection yet still have failUser running, CTRL + D)
 
 (You can use the first step in Stopping it to tell if it's running)
 
@@ -43,7 +43,7 @@ See [here](https://nuskooler.github.io/enigma-bbs/configuration/config-hjson.htm
 ## Running after Setup
 
 1. Activate Python venv, `. env/bin/activate`
-2. Run it in the background `nohup ./failUser.py &` (Now you can close the connection yet still have failUser running)
+2. Run it in the background `nohup ./failUser.py &` (Now you can close the connection yet still have failUser running, CTRL + D)
 
 (You can use the first step in Stopping it to tell if it's running) 
 
